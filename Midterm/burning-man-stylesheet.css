@@ -1,0 +1,89 @@
+#content {
+  width:900px;
+  margin:0 auto;
+}
+
+#headline{
+  font-family: serif, helvetica;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+#authors{
+font-family: serif, helvetica;
+font-size: 20px;
+font-weight: 450;
+}
+
+#date{
+font-family: serif, helvetica;
+font-size: 16px;
+}
+
+p{
+  font-family:helvetica,arial,sans-serif;
+  font-size: 12px
+}
+#name{
+    font-family:helvetica,arial,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #631605
+}
+
+#festival{
+    font-family:helvetica,arial,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #631605
+  }
+#question{
+  font-family:helvetica,arial,sans-serif;
+  font-size: 14px;
+  font-style: oblique;
+}
+
+#explanation{
+  font-family:helvetica,arial,sans-serif;
+  font-size: 14px;
+}
+#subhead{
+  font-family: helvetica, arial, sans-serif;
+  font-size: 18px;
+  text-decoration: underline;
+  font-weight: 550;
+}
+.img-container{
+  text-align: center;
+  display: block;
+}
+
+figcaption{
+  text-align: center;
+  font-size: 10px
+}
+
+/* this next code will cue the style of the "related articles" section */
+#articles{
+  font-family:helvetica,arial,sans-serif;
+  font-size: 12px;
+  text-decoration: underline;
+
+}
+
+blockquote{
+    font: 16px/24px helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  border-top: 6px solid #631605;
+  border-bottom: 6px solid #631605;
+  font-size: 16px;
+}
+
+#burner{
+    font-family:helvetica,arial,sans-serif;
+    font-size: 13px;
+    text-decoration: underline;
+}
