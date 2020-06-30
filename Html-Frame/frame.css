@@ -1,0 +1,45 @@
+.headline{
+  font-size: 3em;
+  font-weight: 700px;
+  text-align: center;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.byline{
+  font-size: 1em;
+  text-transform: uppercase;
+  font-family: 'Playfair Display', sans-serif;
+  text-align: center;
+}
+
+.chapter{
+    font-size: 20px;
+    font-family: 'Playfair Display', sans-serif;
+    text-align: left;
+    text-decoration: underline;
+    font-weight: 300;
+  }
+
+
+p{
+  font-family: 'Playfair Display', sans-serif;
+  line-height: 180%;
+}
+
+.caption{
+font-family: 'Playfair Display', sans-serif;
+font-size: 10px;
+text-align: center;
+}
+
+.footer{
+font-family: 'Playfair Display', sans-serif;
+font-size: 10px;
+text-align: center;
+}
+
+.picture1{
+  margin: 0 auto;
+width: 600px;
+margin-left: 250px;
+}
