@@ -1,45 +1,181 @@
 .headline{
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: 700px;
   text-align: center;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Noto Serif', sans-serif;
 }
 
 .byline{
   font-size: 1em;
   text-transform: uppercase;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Noto Serif', sans-serif;
   text-align: center;
+  color: #A52705;
 }
 
 .chapter{
     font-size: 20px;
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'Noto Serif', sans-serif;
     text-align: left;
     text-decoration: underline;
     font-weight: 300;
+    text-align: center;
+    color: #A52705;
   }
 
 
 p{
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'sans-serif', serif;
   line-height: 180%;
+  font-size: 18px;
+}
+
+.beginning{
+  text-align: center;
+}
+
+.specialp{
+  color: #A52705;
+  font-weight: bolder;
+  text-align: center;
 }
 
 .caption{
-font-family: 'Playfair Display', sans-serif;
+font-family: 'Noto Serif', sans-serif;
 font-size: 10px;
 text-align: center;
 }
 
 .footer{
-font-family: 'Playfair Display', sans-serif;
+font-family: 'Noto Serif', sans-serif;
 font-size: 10px;
 text-align: center;
+border-top: 1px solid;
+padding-top: 10px;
+
 }
 
 .picture1{
   margin: 0 auto;
 width: 600px;
 margin-left: 250px;
+}
+
+.picture2{
+  width: 350px;
+  margin: 0 auto;
+}
+
+.picture3{
+  width: 600px
+}
+
+.factors{
+padding-left: 100px;
+margin-right: 100px;
+}
+
+.se{
+text-align: left;
+padding-left: 500px;
+}
+
+
+/* Tophat */
+
+.nav-logo{
+  color:#fff;
+  margin: 0 auto;
+  font-weight: 700px;
+  text-transform: uppercase;
+  font-family: 'Noto Serif', serif;
+
+}
+
+
+/* Splash Are */
+
+.hero-container{
+  position: relative;
+  text-align: center;
+  color: white;
+
+}
+
+.hero-image{
+  width: 100%
+}
+
+.overlay{
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  background: #000;
+  opacity: .7;
+}
+
+.hero-head{
+  font-family:'Noto Serif', serif;
+  font-size: 5em;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.hero-sub{
+font-family: 'Noto Serif', serif;
+font-size:20px;
+color: #fff;
+text-align: center;
+}
+
+
+@media(max-width:650px) {
+  p{
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+
+.chapter-head{
+  font-size: 1.25em;
+}
+
+
+.inforgraphic{
+margin: 0 auto;
+width
+
+}
+.hed{
+  font-size: 2em;
+}
+
+.hero-head{
+font-size: 1.5em;
+}
+}
+
+/* Quote */
+
+.quote{
+  font-family: 'sans- serif', serif;
+  font-size: 2.2em;
+  font-weight: 600px;
+  text-align: right;
+  padding: 15px 0 15px 0;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #A52705;
+}
+
+.quote-attribution{
+  font-size: .5em;
+  font-family: 'sans-serif',serif;
+  font-weight: 200px;
+  text-align:right;
+color: black;
+
 }
