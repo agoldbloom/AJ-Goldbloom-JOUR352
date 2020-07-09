@@ -100,12 +100,7 @@ padding-left: 500px;
 
 /* Splash Are */
 
-.hero-container{
-  position: relative;
-  text-align: center;
-  color: white;
 
-}
 
 .picture1{
 width:900px;
@@ -161,6 +156,15 @@ text-align: center;
     padding-right: 10px;
   }
 
+  .hero-container{
+    position: relative;
+    text-align: center;
+    color: white;
+    width:100%;
+
+
+  }
+
 .chapter-head{
   font-size: 1.25em;
 }
@@ -182,12 +186,13 @@ font-size: 1.5em;
 .picture1{
 width:100%;
 margin: 0 auto;
-max-width:650px;
+padding-right: 200px;
+
 }
 
 .picture2{
   width:100%;
-  max-width: 650px;
+padding-right: 200px;
   margin: 0 auto;
 }
 }
