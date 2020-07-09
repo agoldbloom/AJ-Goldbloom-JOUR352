@@ -168,7 +168,7 @@ text-align: center;
 
 .inforgraphic{
 margin: 0 auto;
-width
+
 
 }
 .hed{
@@ -181,7 +181,14 @@ font-size: 1.5em;
 
 .picture1{
 width:100%;
-max-width:600px;
+margin: 0 auto;
+max-width:650px;
+}
+
+.picture2{
+  width:100%;
+  max-width: 650px;
+  margin: 0 auto;
 }
 }
 
