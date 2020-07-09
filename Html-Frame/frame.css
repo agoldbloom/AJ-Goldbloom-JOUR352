@@ -30,6 +30,14 @@ p{
   font-size: 18px;
 }
 
+.first-letter{
+  float: left;
+  font-size: 150px;
+  line-height: 1;
+  font-weight: bold;
+  color: #A52705;
+}
+
 .beginning{
   text-align: center;
 }
@@ -73,6 +81,7 @@ margin-left: 250px;
 .factors{
 padding-left: 100px;
 margin-right: 100px;
+text-align: center;
 }
 
 .se{
