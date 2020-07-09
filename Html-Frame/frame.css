@@ -63,11 +63,7 @@ padding-top: 10px;
 
 }
 
-.picture1{
-  margin: 0 auto;
-width: 600px;
-margin-left: 250px;
-}
+
 
 .picture2{
   width: 350px;
@@ -109,6 +105,13 @@ padding-left: 500px;
   text-align: center;
   color: white;
 
+}
+
+.picture1{
+width:900px;
+    margin: 0 auto;
+    padding-left: 190px;
+  align: center;
 }
 
 .hero-image{
@@ -174,6 +177,11 @@ width
 
 .hero-head{
 font-size: 1.5em;
+}
+
+.picture1{
+width:100%;
+max-width:600px;
 }
 }
 
